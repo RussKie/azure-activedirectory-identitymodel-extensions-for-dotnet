@@ -61,7 +61,7 @@ function SetCoreFxVersion([string]$fileName, [string]$oldVersion, [string]$newVe
     Write-Host "============================"
 }
 
-if ($clean)
+if ($clean -eq "YES")
 {
     Write-Host ""
     Write-Host "============================"
